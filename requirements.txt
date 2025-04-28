@@ -1,4 +1,5 @@
 streamlit
 math
 pandas
+plotly
 plotly.express
