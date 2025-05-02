@@ -78,7 +78,7 @@ def clear_results_on_year_change():
 # --- App Layout ---
 st.set_page_config(layout="wide")
 st.title("ABS EAL: Multi-Route Shipping Vessel Composition Calculator")
-st.markdown("Estimate Fleet Composition based on export volumes for multiple routes.")
+st.markdown("Fleet Composition Decision Making Tool")
 st.divider()
 
 # --- Input Section ---
