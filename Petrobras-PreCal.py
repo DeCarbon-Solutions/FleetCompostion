@@ -40,11 +40,11 @@ def get_fixed_vessels(route_key, year):
         elif year >= 2040: new_builds = 0; existing = 18
     elif route_key == "suez_sing":
         if year == 2030: new_builds = 10; existing = 10
-        elif year == 2040: new_builds = 0; existing = 10
+        elif year == 2040: new_builds = 7; existing = 10
         elif year == 2050: new_builds = 0; existing = 17
     elif route_key == "suez_seasia":
         if year == 2030: new_builds = 9; existing = 0
-        elif year == 2040: new_builds = 0; existing = 9
+        elif year == 2040: new_builds = 3; existing = 9
         elif year == 2050: new_builds = 0; existing = 12
     elif route_key == "afra_europe":
         if year == 2030 or year == 2040: new_builds = 0; existing = 5
